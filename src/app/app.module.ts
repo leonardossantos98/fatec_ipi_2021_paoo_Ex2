@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ColecaoCursoComponent } from './colecao-curso/colecao-curso.component';
+import { CursoComponent } from './curso/curso.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColecaoCursoComponent,
+    CursoComponent
   ],
   imports: [
     BrowserModule
